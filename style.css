@@ -1,0 +1,15 @@
+.btn-success:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+canvas{
+    animation-name: Frame;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Frame{
+    from {box-shadow: 1px 1px 38px rgb(226, 127, 205);}
+    to{box-shadow: 1px 1px 38px rgb(154, 98, 161);}
+}
